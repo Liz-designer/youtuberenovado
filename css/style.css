@@ -8,20 +8,18 @@ body {
 }
 
 nav {
-    background-color: #763c3c;
+    background-color: #fdfdfd;
     color: white;
     text-decoration: none;       /* Elimina el subrayado del enlace */
     display: flex;
 }
 
 .vacio{
-    height: 30vh /* usamos vh que significa viewport height osea que de todo lo que se ve en la pantalla en este caso es el 30% creo... xd */
+    height: 40vh /* usamos vh que significa viewport height osea que de todo lo que se ve en la pantalla en este caso es el 30% creo... xd */
 }
 
 .caja1 {
     height: 100vh;
-    background-color: #1e0109;
-    border: solid 2px #ffffff;
     display: flex;
     flex-direction: column; /*bueno eso es pa que se distribuya en columnas, podriamos usar row pero no me salian las cajas como debian */
     margin-top: 7vh;
@@ -29,7 +27,7 @@ nav {
 
 .caja2 {
     height: 15vh;
-    background-color: #260117;
+    background-color: #ffffff;
     border: solid 2px #ffffff;
     color: white;
     text-align: center;
@@ -38,7 +36,7 @@ nav {
 
 .caja3,.perfil_lado_texto {
     height: 5vh;
-    background-color: #79262e;
+    background-color: #ffffff;
     border: solid 2px #ffffff;
     display: flex;               /* Usar flexbox para alinear el contenido */
     align-items: center;         /* Centrar el contenido verticalmente */
@@ -50,7 +48,7 @@ nav {
 }
 
 .caja3 a {
-    color: white;          
+    color: rgb(8, 8, 8);          
     display: block; /*hace que en este caso el a ocupe todo el espacio de la caja entonces podemos dar click en todo y no solo el texto*/
     text-decoration: none;
 }
@@ -66,12 +64,12 @@ nav {
 }
 
 .caja3:hover {
-    background-color: #ef3d3d;
+    background-color: darkgray;
 }
 
 .perfil {
     height: 5vh;
-    background-color: #3e1717;
+    background-color: #fcfbfb;
     border: solid 2px #ffffff;
     display: flex;
     align-items: center;
@@ -108,7 +106,7 @@ footer {
 
 .historias {
     height: 100vh;
-    background-color: #492222;
+    background-color: #2a2249;
     border: solid 2px #ffffff;
     display: flex;
     flex-wrap: wrap;  /* Permite que los elementos se envuelvan a la siguiente línea */
@@ -163,7 +161,7 @@ footer {
 }
 
 .publicacion {
-    background-color: #451010; /* Fondo de la publicación */
+    background-color: #ffffff; /* Fondo de la publicación */
     margin-left: 13vh;
     border: solid 2px #ffffff; /* Borde de la publicación */
     padding: 10px;
@@ -179,7 +177,7 @@ footer {
 }
 
 .descripcion {
-    background-color: #a04040;
+    background-color: #ffffff;
     border: solid 2px #ffffff; 
     padding: 10px;
     color: white;
@@ -196,7 +194,7 @@ footer {
     padding: 10px;
     border-radius: 5px;
     border: solid 2px #ffffff;
-    background-color: #250404;
+    background-color: #ffffff;
     color: white;
 }
 
@@ -224,7 +222,6 @@ footer {
 
 
 .cntvideos{
-    background-color: rgb(240, 106, 106);
     width: 486px;
     height: 252px;
     border: solid 2px #ffffff;
@@ -243,12 +240,12 @@ footer {
 }
 
 .descripcion-video {
-    background-color: #250404;
-    color: white; /* Texto en blanco */
+    background-color: #ffffff;
+    color: rgb(0, 0, 0); /* Texto en blanco */
     padding: 10px; /* Espaciado interior */
     border-radius: 8px; /* Bordes redondeados */
     margin-top: 10px; /* Separación con el video */
-    border: solid 2px #ffffff; /* Borde blanco */
+    border: solid 2px #ffffff; /* Borde blanco */   
 }
 
 .descripcion-video h5 {
@@ -262,8 +259,8 @@ footer {
 }
 
 .principal{
-    height: 60vh;
-    background-color: rgb(152, 29, 29);
+    height: 450px;
+    background-color: rgb(255, 255, 255);
     color: white;
     text-decoration: none;       /* Elimina el subrayado del enlace */
     display: flex;
@@ -274,12 +271,12 @@ footer {
 }
 
 .principal2{
-    height: 60vh;
-    background-color: rgb(152, 29, 29);
+    height: 450px;
+    background-color: rgb(255, 255, 255);
     color: white;
     text-decoration: none;       /* Elimina el subrayado del enlace */
     display: flex;
-    margin-left: 16.5vw; /* margen o espaciado en tre cajas en este caso lo pusimos porque al parecer como esta fixed
+    margin-left: 16.5vw; /* margen o espaciado entre cajas en este caso lo pusimos porque al parecer como esta fixed
     el aside aparece encima entonces una solucion algo chambona jajajaj, fue colocarle un margin para que se moviera a la zona
     visible, ademas el vw significa viewport width o el ancho de pantalla supongo */
     margin-top: 0vh;
